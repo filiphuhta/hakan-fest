@@ -55,6 +55,21 @@ body {
   background-color: #90792fbc;
 }
 
+.drink-container {
+  padding: 3rem;
+  background-color: #90792fbc;
+  color: white;
+}
+
+.drink-row {
+  max-width: 300px;
+}
+
+.drink-heading {
+  background-color: #90792fbc;
+  color: white;
+}
+
 .playlist-title {
   padding-bottom: 1rem;
   color: rgb(255, 255, 255);
