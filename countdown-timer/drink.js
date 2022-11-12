@@ -17,13 +17,13 @@ async function addCocktail() {
   console.log(cocktail);
   let div = document.getElementById("cocktail");
   div.innerHTML = '<div class="drink-container">' +
-    `<h3"> ${cocktail.strDrink}</h3>` +
-    `<p>Kategori: ${cocktail.strCategory}</p>` +
+    '  <h2 class="drink-heading">Dagens drink</h2>' +
+    `<h3> ${cocktail.strDrink}</h3> </br>` +
     `<img src="${cocktail.strDrinkThumb}" style="width: 300px; height: 300px;" />` +
-    `<h4>Innehållslista osv</h4>` +
     '<div class="drink-ingredients">' +
-    `<p>Föredraget Glas: ${cocktail.strGlass}</p>` +
-    'Ingredienser: '+
+    '<h3>Föredraget Glas:</h3> </br> ' +
+    `<p> ${cocktail.strGlass}</p>` +
+    '<h3>Ingredienser:</h3> </br> ' +
     `<p>${cocktail.strIngredient1}, ` +
     `${cocktail.strIngredient2}, ` +
     `${cocktail.strIngredient3}, ` +

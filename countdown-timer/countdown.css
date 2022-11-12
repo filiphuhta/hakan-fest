@@ -17,6 +17,12 @@
   --smaller: .75;
 }
 
+h3 {
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -66,7 +72,6 @@ body {
 }
 
 .drink-heading {
-  background-color: #90792fbc;
   color: white;
 }
 
@@ -75,7 +80,7 @@ body {
   color: rgb(255, 255, 255);
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: normal;
   letter-spacing: .125rem;
   text-transform: uppercase;
@@ -107,6 +112,12 @@ li span {
 @media all and (max-width: 768px) {
   h1 {
     font-size: calc(1.5rem * var(--smaller));
+  }
+  h2 {
+    font-size: calc(1.25rem * var(--smaller));
+  }
+  h3 {
+    font-size: calc(1.0rem * var(--smaller));
   }
   
   li {
