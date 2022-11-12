@@ -237,6 +237,10 @@ li span {
     left: 31px;
   }
 
+  .timeline-container {
+    width: 100%;
+  }
+
 /* Make sure that all arrows are pointing leftwards */
   .timeline-container::before {
     left: 60px;
